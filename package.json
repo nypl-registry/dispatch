@@ -1,0 +1,26 @@
+{
+  "name": "nypl-registry-dispatch",
+  "version": "1.0.0",
+  "description": "Dispatch controller for invoking jobs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nypl-registry/dispatch.git"
+  },
+  "keywords": [
+    "nypl-registry"
+  ],
+  "author": "matt miller <thisismattmiller@gmail.com> (http://twitter.com/thisismmiller)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nypl-registry/dispatch/issues"
+  },
+  "homepage": "https://github.com/nypl-registry/dispatch",
+  "dependencies": {
+    "async": "^1.5.2",
+    "prompt": "^1.0.0"
+  }
+}
