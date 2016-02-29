@@ -21,6 +21,7 @@
   "homepage": "https://github.com/nypl-registry/dispatch",
   "dependencies": {
     "async": "^1.5.2",
-    "prompt": "^1.0.0"
+    "prompt": "^1.0.0",
+    "nypl-registry-ingest-viaf" : "nypl-registry/ingest-viaf"
   }
 }
