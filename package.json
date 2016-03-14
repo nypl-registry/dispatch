@@ -22,6 +22,8 @@
   "dependencies": {
     "async": "^1.5.2",
     "prompt": "^1.0.0",
-    "nypl-registry-ingest-viaf" : "nypl-registry/ingest-viaf"
+    "nypl-registry-ingest-viaf" : "nypl-registry/ingest-viaf",
+    "nypl-registry-ingest-fast" : "nypl-registry/ingest-fast",
+    "nypl-registry-ingest-mms" : "nypl-registry/ingest-mms"
   }
 }
