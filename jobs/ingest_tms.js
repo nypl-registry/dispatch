@@ -5,7 +5,11 @@ tmsIngest.asyncAllLookup((lookupTables) => {
     console.log('tmsObjectsIngest Done')
     tmsIngest.ulan2viaf(() => {
       console.log('Done with ulan2viaf')
-      process.exit(0)
+      tmsIngest.dropPotraitCollection(() => {
+        console.log('Done with dropPotraitCollection')
+
+        process.exit(0)
+      })
     })
   })
 })
