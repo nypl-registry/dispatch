@@ -5,6 +5,7 @@ var tmsMapping = require('nypl-registry-mapping-tms')
 // node jobs/mapping_tms.js clean
 
 if (process.argv[2] && process.argv[2] === 'clean') {
+  console.log('Starting populateKLookup')
   tmsMapping.populateKLookup(() => {
     console.log('Done populateKLookup')
     tmsMapping.tmsAccessionToShadowcatCallnumber(() => {
@@ -16,11 +17,12 @@ if (process.argv[2] && process.argv[2] === 'clean') {
     })
   })
 } else {
-  tmsMapping.tmsAccessionToShadowcatCallnumber(() => {
-    console.log('Done tmsAccessionToShadowcatCallnumber')
-    tmsMapping.mmsItemsToTmsObjects(() => {
-      console.log('Done mmsItemsToTmsObjects')
-      process.exit(0)
-    })
+  console.log('Starting tmsAccessionToShadowcatCallnumber')
+  // tmsMapping.tmsAccessionToShadowcatCallnumber(() => {
+  console.log('Done tmsAccessionToShadowcatCallnumber')
+  tmsMapping.mmsItemsToTmsObjects(() => {
+    console.log('Done mmsItemsToTmsObjects')
+    process.exit(0)
   })
+// })
 }
