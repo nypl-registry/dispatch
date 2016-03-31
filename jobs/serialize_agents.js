@@ -54,4 +54,8 @@ if (process.argv[2] && process.argv[2].toLowerCase() === 'shadowcatviaf') {
     console.log('enumerateAgents done')
     process.exit(0)
   })
+} else if (process.argv[2] && process.argv[2].toLowerCase() === 'prepare') {
+  serializeAgents.prepareAgents(() => {
+    process.exit(0)
+  })
 }
