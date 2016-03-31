@@ -1,0 +1,10 @@
+node jobs/serialize_agents.js prepare
+node jobs/serialize_agents.js shadowcatviaf
+node jobs/serialize_agents.js shadowcatnonviaf
+node jobs/serialize_agents.js archivescollections
+node jobs/serialize_agents.js archivescomponents
+node jobs/serialize_agents.js mmscollections
+node jobs/serialize_agents.js mmscontainers
+node jobs/serialize_agents.js mmsitems
+node jobs/serialize_agents.js tmsobjects
+node jobs/serialize_agents.js enumerate
