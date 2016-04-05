@@ -1,9 +1,5 @@
-var viafIngest = require("nypl-registry-ingest-viaf")
+var viafIngest = require('nypl-registry-ingest-viaf')
 
-
-viafIngest.ingestCluster(function(){
-	viafIngest.ingestPersist()
+viafIngest.ingestCluster(function () {
+  viafIngest.ingestPersist()
 })
-
-
-

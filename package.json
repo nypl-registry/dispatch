@@ -29,6 +29,7 @@
     "nypl-registry-ingest-tms" : "nypl-registry/ingest-tms",
     "nypl-registry-mapping-mms" : "nypl-registry/mapping-mms",
     "nypl-registry-mapping-tms" : "nypl-registry/mapping-tms",
-    "nypl-registry-serialization-agents" : "nypl-registry/serialization-agents"
+    "nypl-registry-serialization-agents" : "nypl-registry/serialization-agents",
+    "nypl-registry-serialization-terms" : "nypl-registry/serialization-terms"
   }
 }
